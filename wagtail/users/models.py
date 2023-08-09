@@ -80,7 +80,7 @@ class UserProfile(models.Model):
     theme = models.CharField(
         verbose_name=_("admin theme"),
         choices=AdminThemes.choices,
-        default=AdminThemes.SYSTEM,
+        default=AdminThemes.LIGHT,
         max_length=40,
     )
 
